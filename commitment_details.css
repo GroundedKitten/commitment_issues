@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Alice", serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  min-width: 100%;
+  min-height: 100%;
+  background: #f8f8ff; /* bone white */
+  padding-top: 2rem;
+}
+
+.alice-regular {
+  font-family: "Alice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  padding: 3rem;
+}
+
+.content-container {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 40vw;
+  height: auto;
+  padding: 2rem;
+  border: 3px inset rgba(47, 44, 29, 0.5);
+  border-radius: 0.5rem;
+  background: #f0e9d6; /* creamy white */
+}
+
+.content-container h1 {
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.5rem;
+  color: #370031; /* Fallback dark purple */
+  color: rgba(55, 0, 49, 1);
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+
+.content-container h2 {
+  font-weight: 500;
+  font-size: 1.25rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.4rem;
+  color: #4f4542; /* Fallback taupe */
+  color: rgba(79, 69, 66, 0.9);
+  letter-spacing: 0.1rem;
+}
+
+.content-container h2:first-letter {
+  font-weight: 600;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.blockquote-container {
+  display: flex;
+  position: relative;
+  max-width: 30ch;
+  height: auto;
+  padding: 0 0.2rem;
+  margin: 0.5rem 1rem;
+  flex-flow: row wrap;
+  border: 0.1rem groove #4c8902e6;
+  border-radius: 1rem;
+  line-height: 1rem;
+  background: #fefcff; /* milk white */
+}
+
+blockquote {
+  padding: 0 0.3rem 0.5rem 0.5rem;
+  margin: 0.1rem 0.2rem 0.8rem 0.5rem;
+}
+
+blockquote p {
+  font-size: 1rem;
+  display: block-inline;
+}
+
+blockquote cite {
+  display: block;
+  font-size: 0.9rem;
+  text-align: right;
+}
+
+.response-container {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.response-container h2 {
+  font-size: 1.25rem;
+  color: #8806ce; /* French violet */
+  font-weight: 500;
+}
